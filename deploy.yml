@@ -17,5 +17,6 @@ spec:
     spec:
       containers:
         - name: c1
-          image: ubuntu
-          command: ["/bin/bash", "-c", "while true; do echo 'chandu'; sleep 10; done"]
+          image: httpd
+          ports:
+          - containerPort: 80
