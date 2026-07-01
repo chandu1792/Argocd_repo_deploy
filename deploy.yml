@@ -17,6 +17,6 @@ spec:
     spec:
       containers:
         - name: c1
-          image: siva17v/myimg
+          image: httpd
           ports:
-          - containerPort: 8080
+          - containerPort: 80
